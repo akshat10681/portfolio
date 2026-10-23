@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background-color:rgb(32, 37, 49);
+            color:white;
+            font-family:Arial,sans-serif;
+        }
+
+        nav{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:100px;
+            padding:15px 5%;
+            border:5px solid rgb(54, 53, 53);
+            background-color:rgb(78, 77, 77);
+        }
+
+        .name{
+            margin-right:auto;
+            color:#fdfcff;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+        }
+
+        nav a:hover{
+            color:#d0bfe1;
+        }
+
+        .img{
+            display:flex;
+            justify-content:center;
+            margin-top:50px;
+            box-shadow: #838184;
+            
+        }
+
+        header img{
+            width:280px;
+            height:280px;
+            object-fit:cover;
+            border-radius:40%;
+            
+        }
+
+        section{
+            text-align:center;
+            margin:50px auto;
+            max-width:700px;
+        }
+
+        section h2{
+            color:#838184;
+            font-size:22px;
+            margin-bottom:15px;
+        }
+
+        section h1{
+            font-size:70px;
+            margin-bottom:15px;
+        }
+
+        section p{
+            color:#b6b4b8;
+            line-height:1.6;
+            margin-bottom:30px;
+        }
+
+        button{
+            background-color:#000000;
+            color:rgb(0, 0, 0);
+            border-radius:8px;
+            padding:12px 24px;
+            font-size:15px;
+            font-weight:bold;
+            margin-right:10px;
+            transition:0.3s;
+        }
+
+        button a{
+            color:rgb(151, 149, 149);
+        }
+
+        button:hover{
+            background-color:#a6a7a8;
+            
+        }
+    </style>
+    <body>
+        <header>
+        <div class = navi> 
+            <nav> 
+                <h2 class="name">Akshat</h2>
+                
+                <button><a href = "main.html" class="button">Home</a></button>
+                <button><a href = "about.html" class="button">About Me</a></button>
+                <button><a href = "projects.html" class="button">Projects</a></button>
+                <button><a href = "skill.html" class="button"> Skill</a></button>
+                <button><a href = "social.html" class="button">GetInTouch</a></button>
+                
+            </nav>            
+        </div> 
+        <div class="img">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/048/926/084/small/silver-membership-icon-default-avatar-profile-icon-membership-icon-social-media-user-image-illustration-vector.jpg" alt="Me" height="300px" width="300px">
+        </div>       
+        </header>
+        <section>
+            <div>
+            <h2>Hello, I'm</h2>
+            <h1>Akshat</h1>
+            <h2>Student at SST</h2>
+            <p>I am currently studying Cs with AI at Scaler School of Technology.
+                I enjoy building cv related projects and im a day trader 
+            </p>
+            <button id = "lol"><a href="projects.html" >View My Work</a></button>
+            <button ><a href="social.html">Contact Me</a></button>
+            </div>
+        </section>
+    </body>
+</html>
